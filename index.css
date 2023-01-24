@@ -1,0 +1,107 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-align: center; 
+    
+}
+
+p{
+    
+    text-align: center;
+    padding: 10px;
+
+}
+
+.caixaMae {
+ 
+    background-color: black;
+    color: white;
+
+}
+
+.cabecalho {
+
+    display: block;
+    height: 60px;
+    background-color: darkblue;
+
+}
+
+.menu {
+
+    display: inline-block;
+    height: 545px;
+    width: 20%;
+    margin:  10px;
+    border-radius: 10px;
+    float: left;
+    background-color: darkgoldenrod;
+
+}
+
+.conteudo {
+
+    display: inline-block;
+    height: 545px;
+    width: 50vh;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: darkcyan;
+
+}
+
+.aside {
+
+    display: inline-block;
+    height: 545px;
+    width: 20%;
+    margin: 10px;
+    float: right;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+
+}
+
+.rodape {
+
+    display: block;
+    width: 100%;
+    height: 60px;
+
+    background-color: darkblue;
+
+}
+
+.cabecalho:hover, .rodape:hover{
+
+    background: lightblue;
+ 
+ }
+ 
+ .menu:hover,.aside:hover{
+
+     background-color: yellow;
+
+ }
+ 
+ #acao:hover{
+
+     color: white;
+     padding: 5px;
+
+ }
+ 
+ .conteudo:hover{
+
+     background-color: limegreen;
+     padding: 5px;
+
+ }
